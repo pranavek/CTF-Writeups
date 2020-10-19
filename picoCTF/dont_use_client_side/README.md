@@ -9,7 +9,7 @@
 
 ## Solution
 
-Open the webiste and check the source of it. The login form has a submit button, which is invoking a JS method named `verify()`. This method is reading the password which user entered and checks if it's substring matches certain strings.  
+Open the webiste and check the source of it. The login form has a submit button, which is invoking a JS method named `verify()`. This method is reading the password field and checks if its substring matches certain strings. Those string contains the flag.
 
 ```
 	if (checkpass.substring(0, split) == 'pico') {
@@ -20,7 +20,7 @@ Open the webiste and check the source of it. The login form has a submit button,
              if (checkpass.substring(split*2, split*3) == 'no_c') {
 ```
 
-Make use of the index used in the substring to find the password string. 
+Order the substrings based on the index. 
 
 ```
 picoCTF{no_clients_plz_xxxxx}
