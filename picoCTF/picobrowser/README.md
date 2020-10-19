@@ -11,7 +11,13 @@
 
 A broswer user-agent is a string which helps the server understand what browser is being used. The browser will add user agent header in the requests. 
 
-Solution based on Firefox browser:
+The header can be modified in multiple ways;
+1. Using the dev tools of the browser 
+2. Use a proxy to intercept the request and modify the header
+3. Using a browser plugin
+4. Overrding the agent using browser config editor eg: about:config
+
+Solution based on Firefox dev tools:
 1. Open the web developer window and click on the Networks tab to see the HTTP requests.
 2. On the website, click on the Flag button. 
 3. From the requests listed on the Networks tab select the request that was made due to the above invocation. 
