@@ -1,17 +1,16 @@
-# CTF Name – Challenge Name
+# CTF –  
 
-* **Category:** category
-* **Points:** points
+* **Category:** 
+* **Points:** 
 
 ## Challenge
 
-> The text of 
-> the challenge.
+> 
 
 ## Solution
 
-The solution.
+
 
 ```
-The flag.
+
 ```
