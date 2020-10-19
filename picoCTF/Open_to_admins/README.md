@@ -9,7 +9,7 @@
 
 ## Solution
 
-Add two cookie entries to the website. The first being `admin` with value `True` and the second one is `time` with `1400` as the value. Click on the **Flag** button to see the flag.
+Open the dev tools of the browser and add two cookie entries. The first being `admin` with value `True` and the second one is `time` with `1400` as the value. Click on the **Flag** button to see the flag.
 
 
 ```
