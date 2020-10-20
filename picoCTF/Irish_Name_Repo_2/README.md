@@ -9,7 +9,7 @@
 
 ## Solution
 
-Similar to ** Irish-Name-Repo 1 ** make a request to login page using crafterd SQL query.
+Similar to **Irish-Name-Repo 1** make a request to login page using crafterd SQL query.
 
 Using *curl* make a request with username field containing text **admin** followed by **--**. The two hypens will comment out rest of the query which will get executed in the SQL server.
 ```
