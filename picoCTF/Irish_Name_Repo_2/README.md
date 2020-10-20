@@ -1,7 +1,7 @@
 # picoCTF – Irish-Name-Repo 2 
 
 * **Category:** Web
-* **Points:** 300
+* **Points:** 350
 
 ## Challenge
 
