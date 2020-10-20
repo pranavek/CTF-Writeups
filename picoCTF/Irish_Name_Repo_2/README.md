@@ -5,7 +5,7 @@
 
 ## Challenge
 
->  Do you think you can log us in? Try to see if you can login!
+> Someone has bypassed the login before, and now it's being strengthened. Try to see if you can still login!  
 
 ## Solution
 
