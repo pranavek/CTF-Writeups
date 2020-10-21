@@ -13,7 +13,9 @@ A broswer user-agent is a string which helps the server understand what browser 
 
 Make a curl request to the flag endpoint with user-agent header set to `picobrowser`
 
+```
 curl "<URL>/flag" -H "User-Agent:picobrowser"
+```
 
 The response contains the flag.
 
