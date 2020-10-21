@@ -11,18 +11,9 @@
 
 A broswer user-agent is a string which helps the server understand what browser is being used. The browser will add user agent header in the requests. 
 
-The header can be modified in multiple ways;
-1. Using the dev tools of the browser 
-2. Use a proxy to intercept the request and modify the header
-3. Using a browser plugin
-4. Overrding the agent using browser config editor eg: about:config
+Make a curl request to the flag endpoint with user-agent header set to `picobrowser`
 
-Solution based on Firefox dev tools:
-1. Open the web developer window and click on the Networks tab to see the HTTP requests.
-2. On the website, click on the Flag button. 
-3. From the requests listed on the Networks tab select the request that was made due to the above invocation. 
-4. Right click and select 'Edit and Resend'
-5. Update the header named `User-Agent` to `picobrowser` and  click on the Send button.
+curl "<URL>/flag" -H "User-Agent:picobrowser"
 
 The response contains the flag.
 
